@@ -1,0 +1,142 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@font-face {
+  font-family: "zen-loop";
+  src: url(./assets/fonts/ZenLoop-Regular.ttf);
+}
+
+@font-face {
+  font-family: "noto-sans";
+  src: url(./assets/fonts/NotoSansHK-Regular.otf);
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image {
+  border-radius: 5%;
+  width: 200px;
+  height: 250px;
+  border-color: #004a4a;
+  border-style: solid;
+  border-width: 5px;
+  margin-top: 5%;
+}
+
+.title {
+  margin: 10px;
+  font-family: "zen-loop";
+  color: white;
+  font-size: 45px!important;
+}
+
+.about {
+  text-align: left;
+  margin-top: 5%;
+  font-family: "noto-sans";
+  color: white;
+  font-size: 15px;
+}
+
+.about>h3 {
+  margin: 10px;
+  font-size: 35px!important;
+  font-family: "zen-loop";
+  text-align: center!important;
+}
+.card {
+  padding: 20px;
+  margin-top: 5%;
+  margin-bottom: 10%;
+
+  display: flex;
+  flex-direction: column;
+  background-color: teal;
+  border-radius: 1%;
+  width: 80%;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+  width: 100%;
+  padding: 0!important;
+}
+
+ul>li {
+  color: white;
+  text-align: center;
+  margin: 10px 0 10px 0;
+}
+
+ul>li>div>span {
+  margin-left: 10px;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 5px;
+  font-family: "zen-loop";
+}
+
+.instagram {
+  fill: white;
+  size: 50px;
+}
+
+.social-media-div {
+  background-color: #004a4a;
+  padding: 10px;
+  display: flex;
+  border-radius: 2%;
+}
+
+
+a {
+  text-decoration: none;
+  font-family: "zen-loop";
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.social-media-name {
+  margin-left: auto!important;
+}
