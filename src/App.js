@@ -39,7 +39,7 @@ function App() {
                 </a>
               </li>
               <li>
-                <a href="https://api.whatsapp.com/send?phone=+55%2043%209915-9066">
+                <a href="https://api.whatsapp.com/send?phone=+5504399314788">
                   <div className="social-media-div">
                     <img src={whatsapp} width="35" height="35" />
                     <span className="social-media-name">WhatsApp</span>
