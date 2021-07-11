@@ -23,6 +23,12 @@
   src: url(./assets/fonts/NotoSansHK-Regular.otf);
 }
 
+@font-face {
+  font-family: "quick-sand";
+  src: url(./assets/fonts/Quicksand-VariableFont_wght.ttf);
+}
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -113,7 +119,8 @@ ul>li>div>span {
   font-size: 30px;
   font-weight: 600;
   margin-top: 5px;
-  font-family: "zen-loop";
+  font-family: "quick-sand";
+  margin-top: 4px!important;
 }
 
 .instagram {
@@ -131,12 +138,13 @@ ul>li>div>span {
 
 a {
   text-decoration: none;
-  font-family: "zen-loop";
+  font-family: "quick-sand";
   color: white;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bolder;
 }
 
 .social-media-name {
   margin-left: auto!important;
+  margin-top: 4px;
 }
