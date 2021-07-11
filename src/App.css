@@ -68,6 +68,11 @@
   margin-top: 5%;
 }
 
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .title {
   margin: 10px;
   font-family: "zen-loop";
